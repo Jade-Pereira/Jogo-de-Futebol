@@ -1,13 +1,13 @@
-Algoritmo "semnome"
+Algoritmo 
 //  
 //  
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
     b, m, jogo: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
      escreval("--------------------------")
      escreval("bangu e madoreira")
      escreval("--------------------------")
@@ -17,14 +17,14 @@ Inicio
      leia(m)
        se (b>m) entao
       escreval("Bangu venceu")
-     escreva("diferença de: ",(b - m))
+     escreva("diferenÃ§a de: ",(b - m))
        senao
          se(m=b)entao
        escreval("embate")
-       escreva("diferença de: ",(b-m))
+       escreva("diferenÃ§a de: ",(b-m))
          senao (m<b) entao
      escreval("Madoreira venceu")
-     escreva("diferença de: ",(m-b))
+     escreva("diferenÃ§a de: ",(m-b))
        fimse
      fimse
 
